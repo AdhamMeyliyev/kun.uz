@@ -1,0 +1,575 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+
+*{
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x: hidden;
+    font-family: 'Dancing Script', sans-serif;
+}
+
+/* ASIDE START */
+
+aside img{
+    width: 100%;
+}
+/* ASIDE END */
+
+
+/* HEADER START*/
+ul{
+    list-style: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color:#333;
+
+}
+
+li{
+    padding: 10px;
+    color: black;
+}
+
+.button select{
+    padding: 10px 20px;
+    border-radius: 12px;
+    float:left;
+    background-color: rgb(241, 241, 245);
+}
+
+
+nav ul{
+    background-color:  rgb(241, 241, 245);
+}
+/* HEADER END*/
+
+/* 1-SECTION START */
+.section1{
+    width: 1018px;
+    height: 346px;
+    background-color: rgb(241, 241, 245);
+}
+
+.oqu img{
+    width: 509px;
+    height: 346px;
+    float: left;
+
+}
+
+.sharh{
+    width: 509px;
+    height: 346px;
+}
+
+.sharh p{
+    padding: 25px;
+}
+
+.section2{
+    width: 484px;
+    height: 113px;
+    margin: 10px 0;
+   /*  background-color:rgb(208, 212, 216); */
+    display: inline block;
+}
+
+.op img{
+    width: 175px;
+    height: 113px;
+    float: left;
+    
+}
+
+.izoh1{
+    float: right;
+    width: 309px;
+    height: 113px;
+    
+}
+
+.section3{
+    width: 484px;
+    height: 113px;
+    margin: 10px 0;
+    /* background-color:rgb(208, 212, 216); */
+    display: inline block;
+}
+
+.img1  img{
+    width: 175px;
+    height: 113px;
+    float: left;
+    box-shadow: 5px 5px 3px rgb(73, 73, 110);
+}
+
+.izoh2{
+    float: right;
+    width: 309px;
+    height: 113px;
+    
+}
+
+.section4{
+    width: 484px;
+    height: 113px;
+    margin: 10px 0;
+    /* background-color:rgb(208, 212, 216); */
+    display: inline block;
+}
+
+.img2  img{
+    width: 175px;
+    height: 113px;
+    float: left;
+    box-shadow: 5px 5px 3px rgb(73, 73, 110);
+}
+
+.izoh3{
+    float: right;
+    width: 309px;
+    height: 113px;
+    
+}
+
+.section5{
+    width: 484px;
+    height: 113px;
+    margin: 10px 0;
+   /*  background-color:rgb(208, 212, 216); */
+    display: inline block;
+}
+
+.img3  img{
+    width: 175px;
+    height: 113px;
+    float: left;
+    box-shadow: 5px 5px 3px rgb(73, 73, 110);
+}
+
+.izoh4{
+    float: right;
+    width: 309px;
+    height: 113px;
+    
+}
+
+.yang{
+    display: flex;
+    gap: 20px;
+}
+
+.section6{
+    width: 1018px;
+    
+}
+
+.section6 figure img{
+    width: 326px;
+    height: 203px;
+    box-shadow: 15px 15px 3px rgb(73, 73, 110);
+}
+
+.section6 figure{
+    width: 346px;
+    
+    background-color:white;
+    margin: 0;
+
+}
+
+.section6 figure figcaption{
+    padding: 10px;
+    text-align: center;
+}
+
+.xabar{
+    display: flex;
+  /*   gap: 5px; */
+}
+
+.sek1{
+    width: 70%;
+    float: left;
+    height: 958px;
+    display: block;
+}
+
+
+.section7{
+    width: 30%;
+    height: 958px;
+    /* background-color:#c8c0c0; */
+    float: right;
+    margin: 0;
+    display: block;
+} 
+
+.section7 p{
+    padding: 5px;
+}
+
+/* .block{
+    display: block;
+} */
+
+
+.section8 figure img{
+    height: 172px;
+    box-shadow: 15px 15px 3px rgb(73, 73, 110);
+}
+
+.section8{
+width: 331px;
+height: 310px;
+    display: flex;  
+}
+
+.section8 h3{
+    display: block;
+}
+
+.section8 figure{
+    width: 331px;
+    height: 310px;
+   /*  background-color:#333; */
+   /*  margin-left: 10px;
+    margin-right: 10px; */
+    /* display: flex; */
+}
+
+.section8 figure  figcaption{
+    text-align: center;
+    padding: 10px;
+}
+
+
+.hikoya h3{
+    
+    margin: 10px 80px;
+}
+
+.hikoya1{
+    width: 650px;
+    height: 580px;
+    /* background-color:aqua; */
+    float: left;
+    margin: 8px 50px 10px 10px;
+}
+
+.hikoya1 img{
+    padding: 10px 12px;
+}
+
+/* .hikoya1 p{
+    width: 600px;
+    height: 50px;
+    background-color: yellowgreen;
+    padding: 15px;
+} */
+
+.paragraf{
+    width: 600px;
+    height: 50px;
+    /* background-color: yellowgreen; */
+    padding: 15px;
+    margin: 6px 10px;
+    font-size: 20px;
+}
+
+a,li{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 18px;
+}
+
+.hikoya2{
+    width: 505px;
+    height: 109px;
+    float: right;
+    margin: 5px 200px 10px 0px;
+    
+
+}
+
+.hikoya2 img{
+    width: 169px;
+    height: 109px;
+    float: left;
+}
+
+.hik22{
+    height: 580px;
+}
+
+.section hik{
+    margin: 10px 50px 30px 50px;
+}
+
+
+
+
+
+.section9{
+    width: 463px;
+    height: 1006px;
+    margin: 10px 30px 10px 0 ;
+   /*  background-color:#333; */
+
+}
+
+
+.section9 figure img{
+    width: 440px;
+    height: 277px;
+    box-shadow: 15px 15px 3px rgb(73, 73, 110);
+    
+}
+
+.section9 figcaption{
+    text-align: center;
+    padding: 10px 0 10px 20px;
+}
+
+.sec9{
+    display: flex;
+}
+
+.biz1{
+    width: 153px;
+    height: 295px;
+ /*    background-color: aqua; */
+    display: block;
+    margin: 10px;
+}
+
+.biz1 figure img{
+    width: 200px;
+    height: 130px;
+    margin: 0;
+    padding:; 
+    
+    background-color:aliceblue;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    text-align: center;
+    
+}
+
+.biz1 figure figcaption{
+    padding: 10px 40px;
+    width: 200px;
+    height: 200px;
+    background-color:aliceblue;
+    text-align: center;
+}
+
+.biznes{
+    background-color:rgb(227, 224, 220);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    margin: 40px 0 0 0;
+}
+
+.biznes1{
+    padding-left: 100px;
+    display: flex;
+    gap: 70px;
+    margin: 15px;
+}
+
+
+
+
+
+
+
+.video{
+    width: 100%;
+    display: flex;
+    gap: 400px;
+}
+
+.foto{
+    width: 100%;
+    display: flex;
+    gap: 340px;
+}
+
+.vf{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+
+
+.section10 .k1 img{
+    margin: 10px 0;
+    padding: 0;
+    width: 675px;
+    height: 421px;
+}
+
+.section10 .k1{
+    width: 675px;
+    height: 519px;
+    /* background-color:#ceb4b4; */
+    /* margin: 0 20px; */
+}
+
+.section10 .k1 figure figcaption {
+    width: 600px;
+    height: 98px;
+    padding-left: 100px;
+    text-align: center;
+    
+}
+
+.section10 .ki1{
+    width: 675px;
+    height: px;
+    /* background-color:#c2bebe; */
+    /* margin: 0 20px; */
+    
+}
+
+.section10 .ki1 figure img{
+    /* margin: 10px 0; */
+    position: relative;
+    width: 328px;
+    height: 204px;
+    padding-left: 0 ;
+    padding-right: 10px;
+}
+
+.section10 .ki1 figure figcaption{
+    width: 327px;
+    height: 57px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.section10 .ki1 li{
+   display: flex;
+   width: 310px;
+   margin: 0;
+   gap: 20px;
+}
+
+.section10 .op ul{
+    display: flex;
+    width: 310px;
+    margin: 0 5px;
+    gap: 20px;
+ }
+
+ .op{
+    float: left;
+    width: 50%;
+}
+
+
+ 
+
+ .video{
+    width: 100%;
+    display: flex;
+    gap: 400px;
+}
+
+.op1{
+    float: right;
+    width: 50%;
+}
+
+.section10 .op1 ul{
+    display: flex;
+    width: 310px;
+    margin: 0 5px;
+    gap: 20px;
+ }
+
+ .section10{
+    height: 900px;
+    display: block;
+ }
+
+
+
+ footer{
+    background-color:rgb(5, 5, 164);
+    width: 100%;
+    height: 300px;
+}
+
+footer ul{
+    width: 100%;
+    height: 50px;
+    background-color:#2724f7;
+    
+    padding: 0 100px;
+}
+
+footer a{
+   text-align: center;
+    color:white;
+    padding: 15px;
+    font-size: 20px;
+}
+
+blockquote{
+    width: 100%;
+    color:white;
+    
+}
+
+.blockq{
+    width: 50%;
+    padding: 7px;
+    float: left;
+}
+
+.blocki a img{
+    gap: 10px; 
+margin: 80px 35px ;    
+
+}
+
+.blocki img{
+    float: right;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
